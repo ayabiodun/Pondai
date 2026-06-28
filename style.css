@@ -52,7 +52,8 @@ main {
 h1,
 h2,
 h3,
-h4 {
+h4,
+a {
   color: var(--text-color);
   font-weight: normal;
 }
@@ -302,13 +303,13 @@ footer {
   cursor: pointer;
 }
 
-.features a {
+.features .fet {
   color: var(--text-color);
   border-bottom: 1px solid var(--text-color);
   transition: 0.3s ease-in-out;
 }
 
-.features a:hover {
+.features .fet:hover {
   background-color: var(--primary);
   border-bottom: 1px solid transparent;
 }
@@ -614,7 +615,7 @@ input:checked + .slider:before {
   width: 100%;
 }
 
-.start-trial button{
+.start-trial a{
   max-width: 270px;
   width: 65%;
 }
@@ -776,7 +777,7 @@ input:checked + .slider:before {
   .start-trial p{
     width: 50%;
   }
-  .start-trial button{
+  .start-trial a{
     width: 50%;
   }
 }
@@ -974,12 +975,12 @@ input:checked + .slider:before {
   .logo-container h1 {
     margin-left: 35px;
   }
-  .nav-container a {
+  .nav-container nav ul a {
     color: var(--text-color);
     border-bottom: 1px solid transparent;
     transition: 0.3s ease;
   }
-  .nav-container a:hover {
+  .nav-container nav ul a:hover {
     border-bottom: 1px solid var(--text-color);
   }
 

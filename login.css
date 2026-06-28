@@ -13,7 +13,7 @@ body {
   min-height: 100vh;
 }
 
-a {
+.info a, .sign-up a {
     text-decoration: underline;
     color: grey;
 }
